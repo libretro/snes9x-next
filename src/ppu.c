@@ -3998,7 +3998,7 @@ static INLINE bool8 addCyclesInDMA (uint8 dma_channel)
 	return retval;
 }
 
-static uint8 dma_channels_to_be_used[8];
+static uint8 dma_channels_to_be_used[8] = {0};
 static bool8 special_chips_active = FALSE;
 
 
